@@ -1,0 +1,33 @@
+:root {
+  --yellow: #ffe400;
+  --red: #f72210;
+  --text-title: rgba(3, 3, 3, 0.4);
+}
+
+.bg-yellow {
+  background-color: var(--yellow, yellow);
+}
+
+.bg-red {
+  background-color: var(--red, red);
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-title {
+  color: var(--text-title, #222);
+}
+
+.text-red {
+  color: var(--red, red);
+}
+
+.scroll-height {
+  max-height: 60vh;
+}
+
+.search-bar {
+  max-width: 100px;
+}
