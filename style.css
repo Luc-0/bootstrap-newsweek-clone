@@ -31,3 +31,11 @@
 .search-bar {
   max-width: 100px;
 }
+
+.img-card {
+  height: 311px;
+}
+
+.img-card img {
+  object-fit: cover;
+}
